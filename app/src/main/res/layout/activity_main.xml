@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradienthome"
+    >
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="278dp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif"
+        android:text="THASBEEH COUNTER "
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="sans-serif"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#E9FFFFFF"
+        android:textSize="50sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/countbtn"
+        android:layout_width="281dp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFD500"
+
+        android:text="Count" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_marginLeft="30sp"
+        android:layout_width="281dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#00FFFF"
+        android:text="Reset" />
+</LinearLayout>
